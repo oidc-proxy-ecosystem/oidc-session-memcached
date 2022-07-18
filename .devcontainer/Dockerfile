@@ -1,4 +1,4 @@
-FROM golang:1.16-buster
+FROM golang:1.18.4-buster
 ENV TZ=Asia/Tokyo
 ARG ARG_DOCKER_CLIENT_VERSION=19.03.8
 
